@@ -1,0 +1,7 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input("ele to be searched"))
+if x in l:
+    print("ele is found")
+else:
+    print("ele not found")
