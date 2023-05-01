@@ -1,0 +1,12 @@
+ind={}
+n=int(input("Enter no of players:"))
+for i in range(1,n+1):
+    l=[]
+    pno=int(input('Enter player number:'))
+    pname=input('Enter player name')
+    l.append(pname)
+    ind[pno]=l
+print(ind)
+pno=int(input('Enter player number for details'))
+print("player number:",pno)
+print('Player name:',ind[pno][0])
