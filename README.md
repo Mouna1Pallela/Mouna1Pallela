@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @Mouna1Pallela
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Mouna1Pallela/Mouna1Pallela is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+c=int(input("Enter c value:"))
+if(not(a>b and a>c)):
+    if(b>c):
+        print("B is big")
+    else:
+        print("c is big")
+else:
+    print("a is big")
