@@ -1,0 +1,10 @@
+class Leapyear:
+    def tocheckLeapyear(self,n):
+       if (n%400==0 and n%100==0 or n%4==0):
+           print("leap year")
+       else:
+            print("not leap year")
+
+n =int(input())
+lp = Leapyear( )
+lp.tocheckLeapyear(n)
